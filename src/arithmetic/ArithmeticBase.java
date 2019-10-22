@@ -8,10 +8,10 @@ package arithmetic;
 import java.util.Scanner;
 
 /** This class takes String input plus,minus,divide and times
- * from user and execute the operation
- *
+ * from user and execute the arithmetic operation
+ * change the code to use enum instead String and add object oriented principles satisfy as comment in the code
  * @author sivagamasrinivasan
- * date 06/20
+ * date 10/22
  */
 public class ArithmeticBase 
 {
