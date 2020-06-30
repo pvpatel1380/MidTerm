@@ -12,7 +12,7 @@ import java.util.Scanner;
  * arithmetic operations based on user input
  * execute the code check the output
  * @author sivagamasrinivasan
- * date 02/19
+ * date 30/20
  */
 public class Arithmetic 
 {
