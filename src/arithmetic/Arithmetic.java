@@ -7,6 +7,7 @@ package arithmetic;
 
 
 import java.util.Scanner;
+import static java.time.Clock.system;
 
 /** This class calls the method to perform 
  * arithmetic operations based on user input
@@ -24,14 +25,12 @@ public class Arithmetic
     {
        
         ArithmeticBase r= new ArithmeticBase();
-        double result = r.calculate(1,2);
+        Scanner in= new Scanner(System.in);
+        int n= in.nextInt();
+        int m= in.nextInt();
+        double result = r.calculate(m,n);
         System.out.println("result :" +result); 
     
     }
-
-
-
-
-
 }
 
