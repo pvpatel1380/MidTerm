@@ -13,7 +13,7 @@ import static java.time.Clock.system;
  * arithmetic operations based on user input
  * execute the code check the output
  * @author sivagamasrinivasan
- * date 30/20
+ * date 17/21
  */
 public class Arithmetic 
 {
