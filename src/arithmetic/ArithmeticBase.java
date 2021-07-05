@@ -16,10 +16,15 @@ import java.util.Scanner;
 public class ArithmeticBase 
 {
  public double x,y;
+ public enum Operation{
+            PLUS,MINUS,TIMES,DIVIDE,MODULO
+        };
+        
     double calculate(double x, double y) 
         {
-        Scanner sc =new Scanner(System.in);
+        
         System.out.println("Enter arithmetic operation to Perform: ");
+        Scanner sc =new Scanner(System.in);
         String s= sc.next();
         switch (s.toUpperCase()) 
         {
