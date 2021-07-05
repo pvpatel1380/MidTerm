@@ -31,6 +31,8 @@ public class ArithmeticBase
                 return x * y;
             case "DIVIDE":
                 return x / y;
+            case "MODULO":
+                return x % y;
             default:
                 throw new AssertionError("Unknown operations " + this);
         }
